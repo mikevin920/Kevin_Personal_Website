@@ -1,97 +1,78 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Kevin Mi
+#     # - name: Date of Birth
+#     #   value: 14th March 1879
+#     - name: Languages
+#       value: English, German
+
+- title:  Kevin Mi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: University of Toronto - Toronto, ON 
+      institution: Bachelor of Applied Science in Engineering Science major in Machine Intelligence
+      year: Sept. 2020 - Present 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: <b>Courseworks</b>
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            Software Engineering, Natural Language Processing, Embedded Systems, Deep Learning, Reinforcement Learning
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Qualcomm - Markham, ON
+      institution: Automotive Software Engineering Intern 
+      year: May 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Working on camera software stack of next-gen Snapdragon Ride Autonomous Driving Platform
+    - title: Trimble (Applanix) - Richmond Hill, ON
+      institution: Software Engineering Intern
+      year: May 2022 - Sept. 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Implemented scripts to extract and display LiDAR point cloud data as overlaying strips in Applanix's GNSS/INS
+            mapping software using C++ and C# to provide 50% of current users with better visual effects of trajectory.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Spacecraft Dynamics Control Lab - Toronto, ON
+      institution: Autonomous Vehicle Researcher
+      year: May 2021 - Present
+      description: 
+      - Implemented deep reinforcement learning algorithms (D3QN) with a combination of game theory using Tensorflow and
+        ROS, which reduced collision by 20% compared to baseline algorithms.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Omni Labs - San Francisco, CA
+      institution: Software/Machine Learning Engineer
+      year: Sept. 2022 - May 2023
       description:
+      - Enhanced the Omni Chat API by expanding the retrieval scope of pertinent information from the user’s database,
+        ensuring a richer context for prompts and references.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Award and Honours
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b>NSERC USRA Undergraduate Student Research Awards</b>
+    - <b>Dean's List Scholar</b> 
+    - <b>Engineering Science Entrance Scholarships</b>
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: <b>Programming Languages</b>
+      items: 
+        - Python, C#, C++, Java, MATLAB/Simulink, JavaScript
+    - title: <b>Machine Learning Tools</b>
+      items:
+        - TensorFlow/Keras, PyTorch, NumPy, Pandas, scikit-learn
+
+    - title: <b>Technical Tools</b>
+      items:
+        - React, Node.js, Ruby, AutoCAD/Solidworks, Flask, Git/JIRA, Heroku
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

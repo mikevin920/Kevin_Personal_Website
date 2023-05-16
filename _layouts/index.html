@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /about/
+permalink: /index/
 ---
 
 
@@ -8,8 +8,6 @@ permalink: /about/
 <!-- index.html -->
       <div class="post">
         <header class="post-header">
-          <br>
-          <br>
           <br>
           <br>
           <br>
@@ -36,13 +34,13 @@ permalink: /about/
             typewriter
               .start()
               .pauseFor(1500)
-              .typeString('Hey there')
+              .typeString('Hi !')
               .pauseFor(2000)
               .deleteAll()
               .typeString('Welcome to my personal website')
               .deleteAll()
               .pauseFor(2000)
-              .typeString('I am')
+              .typeString('My name is')
               .pauseFor(500)
               .typeString(' ...')
               .pauseFor(1000)
@@ -52,7 +50,7 @@ permalink: /about/
           </script>
           <br>
           <center>
-          <p class="desc">Engineer &nbsp; | &nbsp; Innovator</p>
+          <p class="desc">Engineer &nbsp; | &nbsp; Musican | &nbsp; Amateur Basketball Player</p>
           </center>
 
           <div class="social">
@@ -67,20 +65,20 @@ permalink: /about/
 
           <div class="row">
             <div class="column" style="margin:5px; margin:0 auto;">
-              {%- assign profile_image_path = 'hyperlock.png' | prepend: 'assets/img/' -%}
+              {%- assign profile_image_path = 'deepRLAV.png' | prepend: 'assets/img/' -%}
 
             {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-            {%- assign caption = "Research" -%}
+            {%- assign caption = "Resume" -%}
 
             {% include figure.html 
               path=profile_image_path 
               class=profile_image_class
               caption = caption
-              url = "/publications/"
+              url = "/cv/"
               -%}
             </div>
             <div class="column" style="margin:5px; margin:0 auto;">
-              {%- assign profile_image_path = 'solardemo.gif' | prepend: 'assets/img/' -%}
+              {%- assign profile_image_path = 'highwayDT.gif' | prepend: 'assets/img/' -%}
 
             {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
             {%- assign caption = "Projects" -%}
@@ -93,16 +91,16 @@ permalink: /about/
               -%}
             </div>
             <div class="column" style="margin:5px; margin:0 auto;">
-              {%- assign profile_image_path = 's8.gif' | prepend: 'assets/img/' -%}
+              {%- assign profile_image_path = 'guitar.jpeg' | prepend: 'assets/img/' -%}
 
             {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-            {%- assign caption = "Skateboard" -%}
+            {%- assign caption = "Guitar" -%}
 
             {% include figure.html 
               path=profile_image_path 
               class=profile_image_class
               caption = caption
-              url = "/skatehof/"
+              url = "/guitar/"
               -%}
             </div>
           </div>
