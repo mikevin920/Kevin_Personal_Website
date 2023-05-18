@@ -119,22 +119,16 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">cv <a href="/assets/pdf/Mi-Kevin-cv-May-2023.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>
-</h1>
+            <h1 class="post-title"><a href="/assets/pdf/Mi-Kevin-cv-May-2023.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a></h1>
             <p class="post-description"></p>
           </header>
 
+            <div class="name-container">
+                <h1 class="name"><strong>Kevin Mi</strong></h1>
+            </div>
+
           <article>
             <div class="cv">
-              
-                <div class="card mt-3 p-3">
-                  <h3 class="card-title font-weight-medium">Kevin Mi</h3>
-                  <div>
-                  
-                    
-                  
-                  </div>
-                </div>
               
                 <div class="card mt-3 p-3">
                   <h3 class="card-title font-weight-medium">Education</h3>
@@ -391,6 +385,26 @@
 
       
     </div>
+
+
+    <center><button id="scroll-to-top">Top</button></center>
+    
+    <script type="text/javascript">
+        var scrollToTopButton = document.getElementById('scroll-to-top');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                scrollToTopButton.classList.add('show');
+            } else {
+                scrollToTopButton.classList.remove('show');
+            }
+        });
+
+        scrollToTopButton.addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+    </script>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">

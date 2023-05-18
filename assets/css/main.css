@@ -93,6 +93,49 @@ body.sticky-bottom-footer {
   width: 100%;
 }
 
+#scroll-to-top {
+  display: none;
+  position: center;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0.5;
+}
+
+#scroll-to-top:hover {
+  opacity: 1;
+}
+
+#scroll-to-top.show {
+  display: block;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.name {
+  font-size: 2rem;
+  color: #333;
+  animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /******************************************************************************
  * Publications
  ******************************************************************************/

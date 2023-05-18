@@ -201,6 +201,26 @@
       
     </div>
 
+
+    <center><button id="scroll-to-top">Top</button></center>
+    
+    <script type="text/javascript">
+        var scrollToTopButton = document.getElementById('scroll-to-top');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                scrollToTopButton.classList.add('show');
+            } else {
+                scrollToTopButton.classList.remove('show');
+            }
+        });
+
+        scrollToTopButton.addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+    </script>
+
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">

@@ -160,7 +160,7 @@
           </script>
           <br>
           <center>
-          <p class="desc">Engineer   |   Musican   |   Amateur Basketball Player</p>
+          <p class="desc">Engineer   |   Musician   |   Amateur Basketball Player</p>
           </center>
 
           <div class="social">
@@ -168,7 +168,7 @@
             <a href="mailto:%6B%65%76%69%6E.%6D%69@%6D%61%69%6C.%75%74%6F%72%6F%6E%74%6F.%63%61" title="email"><i class="fas fa-envelope"></i></a>
             <a href="https://github.com/mikevin920" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/kevin-mi-aba5151a1" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
+            <a href="http://wallstreetbots.org:8000" title="wallstreetbots" rel="external nofollow noopener" target="_blank"><i class="fas fa-globe"></i></a>
             
 
             </div>
@@ -215,15 +215,45 @@
   </picture><figcaption class="caption">Guitar</figcaption>
 
 </figure></div>
+            <style>
+                .column {
+                    transition: transform 0.2s ease-in-out;
+                }
+            
+                .column:hover {
+                    transform: scale(1.1);
+                }
+            </style>
           </div>
-
         </article>
         <br>
         <br>
+
+        
 </div>
 
       
     </div>
+
+
+    <center><button id="scroll-to-top">Top</button></center>
+    
+    <script type="text/javascript">
+        var scrollToTopButton = document.getElementById('scroll-to-top');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                scrollToTopButton.classList.add('show');
+            } else {
+                scrollToTopButton.classList.remove('show');
+            }
+        });
+
+        scrollToTopButton.addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+    </script>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
