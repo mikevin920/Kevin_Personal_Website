@@ -27,7 +27,7 @@ I am currently working at Qualcomm as an Automotive Software Engineering Intern.
 
 Previously, I worked at Trimble (Applanix) as a Software Engineering Intern, where I worked on the POSPac Mobile Mapping Suite.
 
-On the research side, my interest is at the intersection of reinforcement learning and its applications in autonomous vehicles. In previous projects, I have worked in SDCN Lab at York University, implementing deep reinforcement learning algorithms to autonomous vehicles aiming to optimize their control in various traffic scenarios and transferring the performance from simulation to the real-world. 
+On the research side, my interest is at the intersection of reinforcement learning and its applications in autonomous vehicles. In previous projects, I have worked at the SDCN Lab at York University, implementing deep reinforcement learning algorithms to autonomous vehicles aiming to optimize their control in various traffic scenarios and transferring the performance from simulation to the real-world. 
 
 In my spare time, I am an avid basketball player. I also like playing tennis, I just started learning the electric guitar, and I enjoy playing with my Bichon Frise (up there on the right is him) whenever I'm free.
 
