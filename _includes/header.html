@@ -38,22 +38,22 @@
           {% endfor %}
 
           <!-- Index -->
-          <li class="nav-item {% if page.url contains 'index' %}active{% endif %}">
+          <!-- <li class="nav-item {% if page.url contains 'index' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">Home
               {%- if page.url contains 'index' -%}
               <span class="sr-only">(current)</span>
               {%- endif -%}
             </a>
-          </li>
+          </li> -->
 
           <!-- About -->
-          <!-- <li class="nav-item {% if page.permalink == '/about/' %}active{% endif %}">
+          <li class="nav-item {% if page.permalink == '/about/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/about/' | relative_url }}">About
               {%- if page.permalink == '/about/' -%}
               <span class="sr-only">(current)</span>
               {%- endif -%}
             </a>
-          </li> -->
+          </li>
 
 
           <!-- Projects -->
